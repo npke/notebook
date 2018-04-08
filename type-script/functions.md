@@ -1,10 +1,10 @@
-# TypeScript - JavaScript with type  
+# TypeScript - Function
 
-## Functions
+## Introduction
 - Adds some new capabilities to the standard JavaScript functions to make them easier to work with.  
 - Can be created both as a named function or as an anonymous function.  
 
-### Function return type
+## Function return type
 ```js
 function add(x: number, y: number): number {
     return x + y;
@@ -14,7 +14,7 @@ let myAdd = function(x: number, y: number): number { return x + y; };
 ```
 TypeScript can figure the return type out by looking at the return statements, so we can also optionally leave this off in many cases
 
-### Functions's type
+## Functions's type
 
 A function’s type has two parts: the type of the arguments and the return type. Both parts are required. If the function doesn’t return a value, you would use void instead of leaving it off. _I would rather call this is functions's signature than functions's type._
 ```js
@@ -22,7 +22,7 @@ let myAdd: (baseValue: number, increment: number) => number =
     function(x: number, y: number): number { return x + y; };
 ```
 
-### Optional and Default Parameters
+## Optional and Default Parameters
 In TypeScript, every parameter is assumed to be required by the function.
 ```js
 function buildName(firstName: string, lastName: string) {
@@ -55,7 +55,7 @@ let result3 = buildName("Bob", "Adams");         // okay and returns "Bob Adams"
 let result4 = buildName(undefined, "Adams");     // okay and returns "Will Adams"
 ```
 
-### Rest Parameters
+## Rest Parameters
 ```js
 function buildName(firstName: string, ...restOfName: string[]) {
     return firstName + " " + restOfName.join(" ");
@@ -63,7 +63,7 @@ function buildName(firstName: string, ...restOfName: string[]) {
 
 let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
 ```
-### **this** parameters
+## **this** parameters
 **this** parameters are fake parameters that come first in the parameter list of a function:
 
 ```js
@@ -102,7 +102,7 @@ let pickedCard = cardPicker();
 alert("card: " + pickedCard.card + " of " + pickedCard.suit);
 ```
 TypeScript knows that createCardPicker expects to be called on a Deck object. That means that **this** is of type Deck now.
-### Overloads
+## Overloads
 If our functions need to return different types of objects based on the shape of the arguments passed in.
 ```js
 let suits = ["hearts", "spades", "clubs", "diamonds"];
