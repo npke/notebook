@@ -9,7 +9,7 @@
 ```python
 from flask import Blueprint
 
-bp = Blueprint('auth', __name__, prefix_path='/auth')
+bp = Blueprint('auth', __name__, url_prefix='/auth')
 ```
 - a blueprint is constructed by class `Blueprint`, the prefix_path will be prepended to all routes associated with the blueprint.
 - register the blueprint in Flask's app by `app.register_blueprint(bp)`
