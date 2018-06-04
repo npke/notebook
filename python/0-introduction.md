@@ -6,7 +6,7 @@
   - has a design philosophy emphasizes code readability.
   - dynamic type and automatic memory management.
   - support multiple programming paradigms, including: object oriented, functional, imperative, procedural.
-  - dynamic typing, trong typing & multi-threaded.
+  - dynamic typing, strong typing & multi-threaded.
 
 ## Why?
   - easy to learn and write (syntax).
