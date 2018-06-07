@@ -1,0 +1,40 @@
+# Notebooks
+
+## [Celery](celery)
+- [Introduction](celery/0-introduction.md)
+- [Quickstart](celery/1-quickstart.md)
+
+## [Flask](flask)
+- [Introduction](flask/0-introduction.md)
+- [Quickstart](flask/1-quickstart.md)
+- [Blueprints Views](flask/2-blueprints-views.md)
+- [Packaging](flask/3-packaging.md)
+- [Test Coverage](flask/4-test-coverage.md)
+
+## [Pytest](pytest)
+- [Introduction](pytest/0-introduction.md)
+- [Quickstart](pytest/1-quickstart.md)
+- [Assertions](pytest/2-assertions.md)
+- [Fixtures](pytest/3-fixtures.md)
+- [Marking](pytest/4-marking.md)
+
+## [Python](python)
+- [Introduction](python/0-introduction.md)
+- [Interpreter](python/1-interpreter.md)
+- [Datatypes](python/2-datatypes.md)
+- [Syntax](python/3-syntax.md)
+- [Modules](python/4-modules.md)
+- [Oop](python/5-oop.md)
+- [Input Output](python/6-input-output.md)
+- [Error Execption](python/7-error-execption.md)
+- [Standard Library](python/8-standard-library.md)
+- [Virtual Env Packages](python/9-virtual-env-packages.md)
+
+## [Sqlalchemy](sqlalchemy)
+- [Introduction](sqlalchemy/0-introduction.md)
+- [Orm](sqlalchemy/1-orm.md)
+
+## [Typescript](typescript)
+- [Functions](typescript/0-functions.md)
+- [Interfaces](typescript/1-interfaces.md)
+- [Classes](typescript/2-classes.md)
