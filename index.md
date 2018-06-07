@@ -1,13 +1,16 @@
 # Notebooks
 
-## TypeScript
+## [TypeScript](typescript)
+- [Functions](typescript/0-functions.md)
+- [Interfaces](typescript/1-interfaces.md)
+- [Classes](typescript/2-classes.md)
 
-## Python
+## [Python](/python)
 
-## Flask
+## [Flask](/flask)
 
-## SQlAlchemy
+## [SQLAlchemy](/sqlalchemy)
 
-## Celery
+## [Celery](/celery)
 
-## PyTest
+## [PyTest](/pytest)
