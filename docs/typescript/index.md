@@ -1,0 +1,31 @@
+
+# Typescript
+
+## [Functions](0-functions.md)
+- [Introduction](0-functions.md#introduction)
+- [Function return type](0-functions.md#function-return-type)
+- [Functions's type](0-functions.md#functions's-type)
+- [Optional and Default Parameters](0-functions.md#optional-and-default-parameters)
+- [Rest Parameters](0-functions.md#rest-parameters)
+- [**this** parameters](0-functions.md#**this**-parameters)
+- [Overloads](0-functions.md#overloads)
+
+## [Interfaces](1-interfaces.md)
+- [Introduction](1-interfaces.md#introduction)
+- [Optional Properties](1-interfaces.md#optional-properties)
+- [Readonly properties](1-interfaces.md#readonly-properties)
+- [Excess Property Checks](1-interfaces.md#excess-property-checks)
+- [Function Types](1-interfaces.md#function-types)
+- [Indexable Types](1-interfaces.md#indexable-types)
+- [Class Types](1-interfaces.md#class-types)
+- [Implementing an interface](1-interfaces.md#implementing-an-interface)
+
+## [Classes](2-classes.md)
+- [Introduction](2-classes.md#introduction)
+- [Inheritance](2-classes.md#inheritance)
+- [Public, private, and protected modifiers](2-classes.md#public,-private,-and-protected-modifiers)
+- [Parameter properties](2-classes.md#parameter-properties)
+- [Accessors](2-classes.md#accessors)
+- [Static Properties](2-classes.md#static-properties)
+- [Abstract Classes](2-classes.md#abstract-classes)
+- [Advanced Techniques](2-classes.md#advanced-techniques)
